@@ -44,7 +44,7 @@ for csv_file in csv_files:
                 data = np.append(data, row)
 
     print("" )
-    print("=====================================" )
+    print("====================================" )
     print("BEGIN - " +  header)
     lwz=len(data)
     print("len(data) with zeros: " + str(lwz))
